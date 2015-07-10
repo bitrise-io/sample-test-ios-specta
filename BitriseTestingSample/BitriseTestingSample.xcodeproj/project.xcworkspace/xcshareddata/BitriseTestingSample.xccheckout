@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BB767854-FF57-4A71-999D-565B7149CD4C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BitriseTestingSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B891677A386DD05D085CC08781B326C33736AB0D</key>
+		<string>https://github.com/bazscsa/sample-test-ios-kiwi.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BitriseTestingSample/BitriseTestingSample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B891677A386DD05D085CC08781B326C33736AB0D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/bazscsa/sample-test-ios-kiwi.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B891677A386DD05D085CC08781B326C33736AB0D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B891677A386DD05D085CC08781B326C33736AB0D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sample-test-ios-kiwi</string>
+		</dict>
+	</array>
+</dict>
+</plist>

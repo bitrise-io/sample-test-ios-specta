@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87907097B6DF78DAAC97C9D0 /* libPods-BitriseTestingSampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 558D3CD9B0F17AB8CF9A187C /* libPods-BitriseTestingSampleTests.a */; };
+		A3B7327A1B4AE2F700198943 /* ConnectionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CA46621B45B1E600C61198 /* ConnectionHelper.m */; };
+		A3C683391B45B095000DFBF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C683381B45B095000DFBF8 /* main.m */; };
+		A3C6833C1B45B096000DFBF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C6833B1B45B096000DFBF8 /* AppDelegate.m */; };
+		A3C6833F1B45B096000DFBF8 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C6833E1B45B096000DFBF8 /* MasterViewController.m */; };
+		A3C683421B45B096000DFBF8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C683411B45B096000DFBF8 /* DetailViewController.m */; };
+		A3C683451B45B096000DFBF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3C683431B45B096000DFBF8 /* Main.storyboard */; };
+		A3C683471B45B096000DFBF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3C683461B45B096000DFBF8 /* Images.xcassets */; };
+		A3C6834A1B45B096000DFBF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3C683481B45B096000DFBF8 /* LaunchScreen.xib */; };
+		A3C683561B45B096000DFBF8 /* BitriseTestingSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C683551B45B096000DFBF8 /* BitriseTestingSampleTests.m */; };
+		A3CA46631B45B1E600C61198 /* ConnectionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CA46621B45B1E600C61198 /* ConnectionHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3C683501B45B096000DFBF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3C6832B1B45B095000DFBF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3C683321B45B095000DFBF8;
+			remoteInfo = BitriseTestingSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		558D3CD9B0F17AB8CF9A187C /* libPods-BitriseTestingSampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BitriseTestingSampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C683331B45B095000DFBF8 /* BitriseTestingSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitriseTestingSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C683371B45B095000DFBF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3C683381B45B095000DFBF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3C6833A1B45B095000DFBF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3C6833B1B45B096000DFBF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3C6833D1B45B096000DFBF8 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A3C6833E1B45B096000DFBF8 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A3C683401B45B096000DFBF8 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A3C683411B45B096000DFBF8 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A3C683441B45B096000DFBF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3C683461B45B096000DFBF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A3C683491B45B096000DFBF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A3C6834F1B45B096000DFBF8 /* BitriseTestingSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitriseTestingSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C683541B45B096000DFBF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3C683551B45B096000DFBF8 /* BitriseTestingSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitriseTestingSampleTests.m; sourceTree = "<group>"; };
+		A3CA46611B45B1E600C61198 /* ConnectionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionHelper.h; sourceTree = "<group>"; };
+		A3CA46621B45B1E600C61198 /* ConnectionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionHelper.m; sourceTree = "<group>"; };
+		A544E69E7F811DBC8C81821B /* Pods-BitriseTestingSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitriseTestingSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitriseTestingSampleTests/Pods-BitriseTestingSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		B55EC2F5691ACFF5D024742D /* Pods-BitriseTestingSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitriseTestingSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitriseTestingSampleTests/Pods-BitriseTestingSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3C683301B45B095000DFBF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C6834C1B45B096000DFBF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87907097B6DF78DAAC97C9D0 /* libPods-BitriseTestingSampleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		894174D76616F9432B79E050 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				558D3CD9B0F17AB8CF9A187C /* libPods-BitriseTestingSampleTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3C6832A1B45B095000DFBF8 = {
+			isa = PBXGroup;
+			children = (
+				A3C683351B45B095000DFBF8 /* BitriseTestingSample */,
+				A3C683521B45B096000DFBF8 /* BitriseTestingSampleTests */,
+				A3C683341B45B095000DFBF8 /* Products */,
+				B1FE96E164A4448B45C37E43 /* Pods */,
+				894174D76616F9432B79E050 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A3C683341B45B095000DFBF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3C683331B45B095000DFBF8 /* BitriseTestingSample.app */,
+				A3C6834F1B45B096000DFBF8 /* BitriseTestingSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3C683351B45B095000DFBF8 /* BitriseTestingSample */ = {
+			isa = PBXGroup;
+			children = (
+				A3C6833A1B45B095000DFBF8 /* AppDelegate.h */,
+				A3C6833B1B45B096000DFBF8 /* AppDelegate.m */,
+				A3C6833D1B45B096000DFBF8 /* MasterViewController.h */,
+				A3C6833E1B45B096000DFBF8 /* MasterViewController.m */,
+				A3C683401B45B096000DFBF8 /* DetailViewController.h */,
+				A3C683411B45B096000DFBF8 /* DetailViewController.m */,
+				A3C683431B45B096000DFBF8 /* Main.storyboard */,
+				A3C683461B45B096000DFBF8 /* Images.xcassets */,
+				A3C683481B45B096000DFBF8 /* LaunchScreen.xib */,
+				A3C683361B45B095000DFBF8 /* Supporting Files */,
+				A3CA46611B45B1E600C61198 /* ConnectionHelper.h */,
+				A3CA46621B45B1E600C61198 /* ConnectionHelper.m */,
+			);
+			path = BitriseTestingSample;
+			sourceTree = "<group>";
+		};
+		A3C683361B45B095000DFBF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3C683371B45B095000DFBF8 /* Info.plist */,
+				A3C683381B45B095000DFBF8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3C683521B45B096000DFBF8 /* BitriseTestingSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3C683551B45B096000DFBF8 /* BitriseTestingSampleTests.m */,
+				A3C683531B45B096000DFBF8 /* Supporting Files */,
+			);
+			path = BitriseTestingSampleTests;
+			sourceTree = "<group>";
+		};
+		A3C683531B45B096000DFBF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3C683541B45B096000DFBF8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1FE96E164A4448B45C37E43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B55EC2F5691ACFF5D024742D /* Pods-BitriseTestingSampleTests.debug.xcconfig */,
+				A544E69E7F811DBC8C81821B /* Pods-BitriseTestingSampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3C683321B45B095000DFBF8 /* BitriseTestingSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3C683591B45B096000DFBF8 /* Build configuration list for PBXNativeTarget "BitriseTestingSample" */;
+			buildPhases = (
+				A3C6832F1B45B095000DFBF8 /* Sources */,
+				A3C683301B45B095000DFBF8 /* Frameworks */,
+				A3C683311B45B095000DFBF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitriseTestingSample;
+			productName = BitriseTestingSample;
+			productReference = A3C683331B45B095000DFBF8 /* BitriseTestingSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3C6834E1B45B096000DFBF8 /* BitriseTestingSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3C6835C1B45B096000DFBF8 /* Build configuration list for PBXNativeTarget "BitriseTestingSampleTests" */;
+			buildPhases = (
+				F4EFBA4DCC78637F08D43CEB /* Check Pods Manifest.lock */,
+				A3C6834B1B45B096000DFBF8 /* Sources */,
+				A3C6834C1B45B096000DFBF8 /* Frameworks */,
+				A3C6834D1B45B096000DFBF8 /* Resources */,
+				C998F05F0BB77751819101F3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3C683511B45B096000DFBF8 /* PBXTargetDependency */,
+			);
+			name = BitriseTestingSampleTests;
+			productName = BitriseTestingSampleTests;
+			productReference = A3C6834F1B45B096000DFBF8 /* BitriseTestingSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3C6832B1B45B095000DFBF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Bitrise;
+				TargetAttributes = {
+					A3C683321B45B095000DFBF8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A3C6834E1B45B096000DFBF8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A3C683321B45B095000DFBF8;
+					};
+				};
+			};
+			buildConfigurationList = A3C6832E1B45B095000DFBF8 /* Build configuration list for PBXProject "BitriseTestingSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3C6832A1B45B095000DFBF8;
+			productRefGroup = A3C683341B45B095000DFBF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3C683321B45B095000DFBF8 /* BitriseTestingSample */,
+				A3C6834E1B45B096000DFBF8 /* BitriseTestingSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3C683311B45B095000DFBF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C683451B45B096000DFBF8 /* Main.storyboard in Resources */,
+				A3C6834A1B45B096000DFBF8 /* LaunchScreen.xib in Resources */,
+				A3C683471B45B096000DFBF8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C6834D1B45B096000DFBF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C998F05F0BB77751819101F3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitriseTestingSampleTests/Pods-BitriseTestingSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4EFBA4DCC78637F08D43CEB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3C6832F1B45B095000DFBF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C6833C1B45B096000DFBF8 /* AppDelegate.m in Sources */,
+				A3C6833F1B45B096000DFBF8 /* MasterViewController.m in Sources */,
+				A3C683391B45B095000DFBF8 /* main.m in Sources */,
+				A3C683421B45B096000DFBF8 /* DetailViewController.m in Sources */,
+				A3CA46631B45B1E600C61198 /* ConnectionHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3C6834B1B45B096000DFBF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C683561B45B096000DFBF8 /* BitriseTestingSampleTests.m in Sources */,
+				A3B7327A1B4AE2F700198943 /* ConnectionHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3C683511B45B096000DFBF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3C683321B45B095000DFBF8 /* BitriseTestingSample */;
+			targetProxy = A3C683501B45B096000DFBF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3C683431B45B096000DFBF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3C683441B45B096000DFBF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3C683481B45B096000DFBF8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3C683491B45B096000DFBF8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3C683571B45B096000DFBF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3C683581B45B096000DFBF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3C6835A1B45B096000DFBF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BitriseTestingSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3C6835B1B45B096000DFBF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BitriseTestingSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3C6835D1B45B096000DFBF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B55EC2F5691ACFF5D024742D /* Pods-BitriseTestingSampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BitriseTestingSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitriseTestingSample.app/BitriseTestingSample";
+			};
+			name = Debug;
+		};
+		A3C6835E1B45B096000DFBF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A544E69E7F811DBC8C81821B /* Pods-BitriseTestingSampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BitriseTestingSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitriseTestingSample.app/BitriseTestingSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3C6832E1B45B095000DFBF8 /* Build configuration list for PBXProject "BitriseTestingSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C683571B45B096000DFBF8 /* Debug */,
+				A3C683581B45B096000DFBF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3C683591B45B096000DFBF8 /* Build configuration list for PBXNativeTarget "BitriseTestingSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C6835A1B45B096000DFBF8 /* Debug */,
+				A3C6835B1B45B096000DFBF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3C6835C1B45B096000DFBF8 /* Build configuration list for PBXNativeTarget "BitriseTestingSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C6835D1B45B096000DFBF8 /* Debug */,
+				A3C6835E1B45B096000DFBF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3C6832B1B45B095000DFBF8 /* Project object */;
+}
